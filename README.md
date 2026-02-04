@@ -15,10 +15,9 @@
 # 💻 Пример кода на Python
 *В ходе работы я написал скрипт, который выполняет простые математические действия:*
 
-``` # Моя первая программа
-user_name = "Студент"
-number_a = 15
-number_b = 7```
-
-print(f"Привет, {user_name}!")
-print(f"Сумма чисел {number_a} и {number_b} равна {number_a + number_b}")
+```python name = "Студент"
+    a = 10
+    b = 5
+    result = a + b
+    print(f"Привет, {name}!")
+    print(f"результат сложения {a} + {b} равен {result}")

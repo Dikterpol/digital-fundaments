@@ -1,6 +1,6 @@
 import pandas as pd
-with open("C:/Users/лкгещ/Desktop/6/6_0_4.txt", "w") as f:
-  df = pd.read_csv("C:/Users/лкгещ/Downloads/wild_boars.csv")
+with open("C:/Users/kruto/Desktop/6/6_0_4.txt", "w") as f:
+  df = pd.read_csv("C:/Users/kruto/Downloads/wild_boars.csv")
   col = list(df.columns)
   for i in col[2:]: 
         mod =  df[i].mode()
